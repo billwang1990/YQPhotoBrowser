@@ -19,16 +19,16 @@
     
     
     NSArray *bimageArr=[NSArray arrayWithObjects:
-                        @"http://125.70.12.96/media/awine/ex_chap/P33-1.png",
-                        @"http://125.70.12.96/media/awine/he_in_chap/P33-5.png",
-                        @"http://125.70.12.96/media/awine/tra_cert/P35-1.png",
-                        @"http://125.70.12.96/media/awine/ex_in_rep/P35-2.png",
+                        @"http://pic1.ooopic.com/uploadfilepic/sheying/2008-09-30/OOOPIC_yhy44669_200809301152246daa09fddb24787c.jpg",
+                        @"http://d.hiphotos.baidu.com/album/w%3D2048/sign=d87a537b024f78f0800b9df34d090b55/29381f30e924b8998a96b4176f061d950a7bf673.jpg",
+                        @"http://f.hiphotos.baidu.com/album/w%3D2048/sign=d70bf606eac4b7453494b016fbc41f17/1c950a7b02087bf4d78f27c6f3d3572c11dfcfba.jpg",
+                         @"http://f.hiphotos.baidu.com/album/w%3D2048/sign=d70bf606eac4b7453494b016fbc41f17/1c950a7b02087bf4d78f27c6f3d3572c11dfcfba.jpg",
                         @"http://d.hiphotos.baidu.com/album/w%3D2048/sign=0c2a56cf77c6a7efb926af26c9c2ae51/32fa828ba61ea8d316248714960a304e251f5898.jpg",
                         nil];
     
     NSArray *text = [NSArray arrayWithObjects:@"the two array must have some count objects", @"if there isn't a description word, you can set the [NSNull null] like the next one", [NSNull null], @"ksnhk", @"good luck, billwang@gmail.com",nil];
     
-    YQPhotoBrowser   *vc = [[YQPhotoBrowser alloc]initWithImagesUrl:bimageArr andDescription:text];
+    YQPhotoBrowser *vc = [[YQPhotoBrowser alloc]initWithImagesUrl:bimageArr andDescription:text];
     
     
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
