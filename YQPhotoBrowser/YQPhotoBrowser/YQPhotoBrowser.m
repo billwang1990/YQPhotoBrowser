@@ -71,6 +71,7 @@
     [self setScrollContentSize];
     
     [self.view addSubview:self.mainScroll];
+    
     [self addImagePage];
     
     pageControl = [[UIPageControl alloc]init];
@@ -288,6 +289,8 @@
     
     __block UITextView *textView;
     
+    recongnizer.enabled = NO;
+    
     //bad code
     [view.subviews enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         
@@ -315,6 +318,8 @@
 
         }
     }];
+    
+    recongnizer.enabled = YES;
     
 }
 
